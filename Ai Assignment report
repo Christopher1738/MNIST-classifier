@@ -1,0 +1,42 @@
+AI Assignment Submission 
+Name: Christof
+
+1. Code Implementation
+Task	Code Link
+MNIST CNN (TensorFlow) https://pastebin.com/Y50s9pKV
+Iris Classifier (Scikit-learn) https://pastebin.com/2LPwwmGz
+Amazon NLP (spaCy) https://pastebin.com/KW7rBfEj
+2. Results & Visual Evidence
+MNIST Handwriting Recognition
+Accuracy: 98%
+
+Key Findings: Correctly classified 49/50 test samples
+https://imgur.com/a/uggrJd4
+
+Iris Flower Classification
+Accuracy: 100%
+
+Decision Logic: Petal width > sepal length (feature importance)
+https://imgur.com/tnT92XB
+
+Amazon Review NLP
+Entities Detected: Products (iPhone), Brands (Apple, Sony)
+
+Sentiment Analysis: Rule-based system (82% human-aligned)
+https://imgur.com/n9lbBMA
+
+3. Ethical Analysis
+MNIST CNN
+Risk: Bias against slanted handwriting
+
+Solution: Data augmentation with 15° rotated samples
+
+Amazon Reviews
+Risk: Brand name bias in sentiment
+
+Solution: Replace brand names with [BRAND] placeholder
+
+Iris Classifier
+Risk: Limited training samples
+
+Solution: SMOTE oversampling for rare variants
